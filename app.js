@@ -20,7 +20,7 @@ const articleSchema = {
 
 const Article = mongoose.model("Article", articleSchema);
 
-/////////////////////////////////// Request Targeting all Articles ///////////////////////////////
+/////////////////////////////////// Request Targeting all Articles ////////////////////////////////
 
 app.route("/articles")
 
